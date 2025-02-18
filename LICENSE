@@ -1,35 +1,21 @@
-Licencia de Uso de Software Privativo
+MIT License
 
-Nombre del Programa: Aplicación móvil Tetris Kivy
-Versión: 1.0.0.0 
-Fecha de Emisión: Jueves 14 de noviembre de 2024
+Copyright (c) 2025 Joseph
 
-Derechos de Autor y Propiedad
-El programa Aplicación móvil Tetris Kivy y toda su documentación relacionada son propiedad exclusiva de José Luis Noriega Avendaño, quien se reserva todos los derechos de autor y demás derechos de propiedad intelectual sobre el programa.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Licencia de Uso
-Esta licencia otorga al usuario final un derecho limitado, no exclusivo e intransferible para utilizar el programa únicamente bajo las condiciones especificadas en este documento. Al aceptar esta licencia, el usuario se compromete a cumplir todas las disposiciones y restricciones que se detallan a continuación.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Restricciones de Uso
-El usuario no podrá:
-
-Distribuir, vender, alquilar, sublicenciar o transferir el programa, ni ninguna de sus partes, a terceros sin el permiso previo y por escrito del propietario. Modificar, adaptar, descompilar, realizar ingeniería inversa, desensamblar o intentar derivar el código fuente del programa. Usar el programa para la creación de obras derivadas o para otros fines no autorizados expresamente en este documento. 4. Usos Permitidos
-
-El usuario podrá utilizar el programa únicamente para fines personales o profesionales internos, sin derecho a compartirlo con otros usuarios o empresas, salvo acuerdo expreso y por escrito con el propietario.
-
-Limitación de Responsabilidad
-El programa se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas, incluidas, pero no limitadas a, garantías de funcionamiento ininterrumpido, errores o defectos. En ningún caso, el propietario será responsable por daños directos o indirectos, incluidos, entre otros, daños por pérdida de beneficios o información, que puedan surgir del uso o de la imposibilidad de uso del programa.
-
-Actualizaciones y Soporte
-El propietario puede, a su entera discreción, ofrecer actualizaciones y soporte técnico para el programa. La provisión de actualizaciones no implica obligación de actualización continua ni de compatibilidad de versiones futuras con las versiones anteriores.
-
-Terminación de la Licencia
-Esta licencia será válida hasta que el usuario deje de utilizar el programa o hasta que el propietario decida rescindirla debido al incumplimiento de los términos aquí establecidos. En caso de terminación, el usuario debe cesar inmediatamente el uso del programa y destruir todas las copias en su posesión.
-
-Modificaciones de la Licencia
-El propietario se reserva el derecho de modificar los términos y condiciones de esta licencia en cualquier momento, notificando al usuario. El uso continuado del programa después de cualquier modificación se considerará como aceptación de los términos modificados.
-
-Ley Aplicable
-Esta licencia se regirá e interpretará de acuerdo con las leyes de México. Cualquier disputa que surja en relación con esta licencia se someterá a la jurisdicción exclusiva de los tribunales de México.
-
-Contacto: José Luis Noriega Avendaño Santiago de Querétaro, Querétaro, México jlnoriega68@gmail.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
