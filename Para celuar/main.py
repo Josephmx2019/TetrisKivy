@@ -17,6 +17,15 @@ Pieza = [[0 for _ in range(4)] for _ in range(4)]
 x, y = 0, 0
 puntaje = 0  # Variable para almacenar el puntaje
 
+# Diccionario de colores para cada tipo de pieza
+colores_piezas = {
+    0: (1, 0, 0),  # Rojo para el cuadrado
+    1: (0, 1, 0),  # Verde para la línea
+    2: (0, 0, 1),  # Azul para la L
+    3: (1, 1, 0),  # Amarillo para la T
+    4: (1, 0, 1)   # Magenta para la Z
+}
+
 class TetrisWidget(Widget):
     def __init__(self, app, **kwargs):
         super(TetrisWidget, self).__init__(**kwargs)
@@ -47,33 +56,33 @@ class TetrisWidget(Widget):
 
     def generarPieza(self):
         global x, y
-        tipoPieza = randint(0, 4)
+        self.tipoPieza = randint(0, 4)  # Guardar el tipo de pieza generada
 
         for i in range(4):
             for j in range(4):
                 Pieza[i][j] = 0
     
-        if tipoPieza == 0:  # Cuadrado
+        if self.tipoPieza == 0:  # Cuadrado
             Pieza[1][1] = 1
             Pieza[1][2] = 1
             Pieza[2][1] = 1
             Pieza[2][2] = 1
-        elif tipoPieza == 1:  # Linea
+        elif self.tipoPieza == 1:  # Linea
             Pieza[0][1] = 1
             Pieza[1][1] = 1
             Pieza[2][1] = 1
             Pieza[3][1] = 1
-        elif tipoPieza == 2:  # L
+        elif self.tipoPieza == 2:  # L
             Pieza[0][1] = 1
             Pieza[1][1] = 1
             Pieza[2][1] = 1
             Pieza[2][2] = 1
-        elif tipoPieza == 3:  # T
+        elif self.tipoPieza == 3:  # T
             Pieza[1][0] = 1
             Pieza[1][1] = 1
             Pieza[1][2] = 1
             Pieza[2][1] = 1
-        elif tipoPieza == 4:  # Z
+        elif self.tipoPieza == 4:  # Z
             Pieza[1][0] = 1
             Pieza[1][1] = 1
             Pieza[2][1] = 1
@@ -163,9 +172,9 @@ class TetrisWidget(Widget):
                                 esPartePieza = True
             
                     if esPartePieza:
-                        Color(1, 0, 0)  # Color rojo para la pieza actual
+                        Color(*colores_piezas[self.tipoPieza])  # Color basado en el tipo de pieza
                     elif Tablero[i][j] == '#':
-                        Color(0, 1, 0)  # Color verde para las piezas fijadas
+                        Color(0.5, 0.5, 0.5)  # Color gris para las piezas fijadas
                     else:
                         Color(1, 1, 1)  # Color blanco para el fondo
                     Rectangle(pos=(j * 30, (ALTO - i - 1) * 30), size=(30, 30))
